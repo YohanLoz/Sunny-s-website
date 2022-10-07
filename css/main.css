@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url("../fonts/Nexa\ Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Nexa';
+    font-weight: bold;
+    src: url("../fonts/Nexa\ Bold.otf") format("opentype");
+}
+
+html, body  /* hard reset for the margins and paddings, this will be a pain to work with but it's a nessesity */
+{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Nexa, Arial, Helvetica, sans-serif;
+}
+body{
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-column-gap: 1.042vw; /* 20px calculated from a 1920px screen */
+}
+
+header{ /* rares, you're in charge of this */
+    grid-column: 1/10;
+}
+
+h1{
+    font-family: Nexa, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+footer{
+    grid-column:1/10;
+}
