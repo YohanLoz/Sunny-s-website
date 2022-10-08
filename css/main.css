@@ -9,7 +9,13 @@
     src: url("../fonts/Nexa\ Bold.otf") format("opentype");
 }
 
-html, body  /* hard reset for the margins and paddings, this will be a pain to work with but it's a nessesity */
+/* if you're ever thinking about changing the html font size to anything other than 16px, please don't. */
+
+/* 11.8421053 is the number you need to divide the original pixel size of a font to find out its rem value (instead of 1/16*px) (still not exact) */
+
+/* if you want to use vw (view width in %) for an element (which is more practical), you should get the px size and run it through a VW calculator using a view width of 1440 (and or just use the formula: px/(1440*100) */
+
+html, body  /* hard reset for the margins and paddings, this can be a pain to work with but it's a nessesity */
 {
     margin: 0;
     padding: 0;
@@ -25,15 +31,47 @@ body{
 }
 
 header{ /* rares, you're in charge of this */
-    grid-column: 1/10;
+    grid-column: 1 / 10;
+}
+
+h1, h2, h3{
+    font-family: Nexa, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #1E407A;
 }
 
 h1{
-    font-family: Nexa, Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-size: 9.29rem;    /* font size of 110 px */
 }
 
+h2{
+    font-size: 7.6rem;    /* font size of 90 px*/
+}
+
+h3{
+    font-size: 4.22rem;    /* font size of 50 px*/
+}
+
+p{
+    font-size: 2.11rem;   /* font size of 25 px */
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
 
 footer{
-    grid-column:1/10;
+    grid-column:1 / 10;
+}
+
+.white{
+    color:white;
+}
+.white *{                     /* simple class for white text (attach to container) */
+    color:white;
 }
