@@ -1,0 +1,266 @@
+body{
+	margin: 0;
+    padding: 0;
+	height: 3141px;
+}
+
+/* temporary */
+header{
+	height: 92px;
+	width: 100%;
+	background-color: grey;
+	top: 0;
+	position: absolute;
+}
+
+/* grids will be added soon so it works on mobile as well */
+h1 {
+	position: absolute;
+	width: 680px;
+	height: 218px;
+	left: 146px;
+	top: 132px;
+
+	font-family: Nexa Light;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 110px;
+	line-height: 110px;
+	color: #1E407A;
+}
+
+.img1 {
+	position: absolute;
+	width: 604px;
+	height: 481px;
+	left: 146px;
+	top: 474px;
+}
+
+.p1 {
+	position: absolute;
+	width: 324px;
+	height: 212px;
+	left: 970px;
+	top: 434px;
+
+	font-family: Nexa Light;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 25px;
+	text-align: right;
+
+	color: #000000;
+}
+
+.newsletterbutton {
+	position: absolute;
+	width: 280px;
+	height: 57px;
+	left: 1014px;
+	top: 726px;
+}
+
+/* mainpage blue frame */
+#blueframe {
+	position: absolute;
+	width: 100%;
+	height: 1024px;
+	top: 1024px;
+
+	background: #1E407A;
+}
+
+h2 {
+	font-family: Nexa Bold;
+	font-weight: 700;
+	font-size: 90px;
+	line-height: 90px;
+	top:126px;
+	left: 146px;
+
+	color: #FFFFFF;
+}
+
+.p2 {
+	position: absolute;
+	width: 320px;
+	height: 450px;
+	left: 967px;
+	top: 422px;
+
+	font-family: Nexa Light;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 25px;
+	text-align: right;
+
+	color: #D9D9D9;
+}
+
+#vision {
+	position: absolute;
+	left: 146px;
+	top: 2194px;
+
+	font-family: Nexa Bold;
+	font-size: 85px;
+	line-height: 85px;
+
+	color: #1E407A;
+}
+
+#mission {
+	position: absolute;
+	left: 808px;
+	top: 2196px;
+
+	font-family: Nexa Bold;
+	font-size: 85px;
+	line-height: 85px;
+	text-align: right;
+
+	color: #1E407A;
+}
+
+#Pmission {
+	position: absolute;
+	width: 490px;
+	height: 140px;
+	left: 146px;
+	top: 2398px;
+
+	font-family: Nexa Light;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 35px;
+
+	color: #000000;
+}
+
+#Pvision {
+	position: absolute;
+	width: 490px;
+	height: 140px;
+	left: 808px;
+	top: 2398px;
+
+	font-family: Nexa Bold;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 35px;
+	text-align: right;
+
+	color: #000000;
+	}
+	
+/* pink box */
+.pinkbox {
+	position: absolute;
+	width: 1148px;
+	height: 317px;
+	left: 146px;
+	top: 2618px;
+
+	background: #E990B9;
+}
+
+h4 {
+	position: absolute;
+	width: 1053px;
+	height: 50px;
+	left: 48px;
+	top: 60px;
+
+	font-family: Nexa Bold;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 50px;
+	/* identical to box height */
+
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#email {
+	/* box */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 15px 312px 15px 15px;
+	gap: 15px;
+
+	position: absolute;
+	width: 398px;
+	height: 55px;
+	left: 202px;
+	top: 174px;
+
+	background: #D9D9D9;
+	border-radius: 5px;
+	
+	/* font */
+	width: 71px;
+	height: 25px;
+
+	font-family: Nexa Bold;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 25px;
+
+	color: #E990B9;
+}
+
+#subscribebutton {
+	/* button */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	gap: 15px;
+
+	position: absolute;
+	width: 243px;
+	height: 55px;
+	left: 707px;
+	top: 174px;
+
+	background: #E990B9;
+	border-radius: 5px;
+	
+	/* font */
+	width: 213px;
+	height: 25px;
+
+	font-family: Nexa Bold;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 25px;
+
+	color: #FFFFFF;
+}
+
+#pinktext {
+	position: absolute;
+	width: 532px;
+	height: 25px;
+	left: 308px;
+	top: 263px;
+
+	font-family: 'Nexa Light';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 25px;
+	letter-spacing: 0.03em;
+
+	color: #FFFFFF;
+}
+	
