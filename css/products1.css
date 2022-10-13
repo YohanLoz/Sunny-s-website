@@ -31,6 +31,49 @@
     width: 34.931vw;
     height: 31.806vw;
     background-color: #D9D9D9;
+    overflow-x:hidden;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.scrollingsocks > div{
+    white-space: nowrap;
+    margin-top:auto;
+    margin-bottom: auto;
+    width:100%;
+}
+
+
+.scrollingsocks img{
+    height: 23.75vw;
+    width: auto;
+}
+
+#classicStripes > .scrollingsocks div{
+    animation: sockstripedmove 20s linear infinite;
+    animation-play-state: paused;
+}
+
+#classicStripes > .scrollingsocks div:hover{
+    animation-play-state: running;
+}
+
+#classicUni > .scrollingsocks div{
+    animation: sockunimove 20s linear infinite;
+    animation-play-state: paused;
+}
+
+#classicUni > .scrollingsocks div:hover{
+    animation-play-state: running;
+}
+
+#classicStripes > .scrollingsocks img{
+    margin-right: 2.153vw;
+}
+
+#classicUni > .scrollingsocks img{
+    margin-right: 3.09vw;   /* difference between img widths, divided by 2 and converted to vw */
 }
 
 .linkcontainer{
@@ -91,5 +134,23 @@
 #dutchResell{
     grid-column: 5 / 8;
     text-align: right;
+}
+
+@keyframes sockstripedmove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-65vw, 0);
+    }
+}
+
+@keyframes sockunimove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-69.5vw, 0);
+    }
 }
 

@@ -26,7 +26,12 @@
             
             <h2>classic:<br/>stripes.</h2>
             
-            <div class="scrollingsocks"><img/></div>
+            <div class="scrollingsocks">
+                <div>
+                    <img src="img/classicStripedSocks.png" alt="striped socks"/> 
+                    <img src="img/classicStripedSocks.png" alt="striped socks"/>
+                </div>
+            </div>
             
             <div class="linkcontainer">
                 <a href="">learn more ></a>
@@ -39,7 +44,12 @@
         <section id="classicUni" class="product">
             <h2>classic:<br/>uni color.</h2>
             
-            <div class="scrollingsocks"><img/></div>
+            <div class="scrollingsocks">
+                <div>
+                    <img src="img/classicUniColorSocks.png" alt="unicolor socks"/>
+                    <img src="img/classicUniColorSocks.png" alt="unicolor socks"/>
+                </div>
+            </div>
 
             <div class="linkcontainer">
                 <a href="">learn more ></a>
