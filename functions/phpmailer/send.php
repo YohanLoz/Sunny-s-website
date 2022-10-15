@@ -2,9 +2,9 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'src/Exception.php';
-require 'src/PHPMailer.php';
-require 'src/SMTP.php';
+require 'Exception.php'; 
+require 'PHPMailer.php';
+require 'SMTP.php';
 
 if(isset($_POST["send"])){
     $mail = new PHPMailer(true);
@@ -26,14 +26,14 @@ if(isset($_POST["send"])){
     $mail->Subject = "Socks On SALE ???????
     NO WAYYYYY!!!!!";
     // $_POST["subject"];
-    $mail->Body = "BUY ONE SOCK GET THREE SOCKS. WE ARE SELLING SOCKS FOR FREE BASICALLY. HELP OUT YOUR COMMUNITY BY BUYING THESE AMAZING FAIR TRADE VEGAN SOCKS. YOU CAN ALSO SAVE TURTULES SINCE IT IS NOT MADE OF PLASTIC. IT IS CRAZY HOW GOOD THIS DEAL IS. YOU ARE BASICALLY ROBBING US. I COULD CALL THE POLICE. HMMMMMM I REALLY SHOULD CALL THE POLICE. I WILL CALL THE POLICE YOU NASTY CRIMINAL!!!!";
+    $mail->Body = '<img src="cid:socks">';  
+    $mail->AddEmbeddedImage(dirname(__FILE__) . 
+    '/socksadvert.png', 'socks');
     // $_POST["message"];
     $mail->send();
-    echo "
-    <script>
-    alert('sent succesfully')
-    </script>
-    ";
+    
+     if ($mail->Send()) { header("Location:/sunny-s-website/index.php");  } 
+
 }
 
 

@@ -1,0 +1,42 @@
+body {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background:#ececec;
+}
+
+.form-box{
+    padding:10px;
+    background: #E990B9;
+}
+
+.form-box input{
+color:black;
+background: #fff;
+border: none;
+}
+
+.form-box button{
+color:#fff;
+background-color: #E990B9;
+}
+
+.form-box button:hover{
+background-color: #c75e8f;
+transition: 0.2s;
+}
+
+::placeholder {
+ color: #e990ba;  
+}
+
+.bottom-text {
+/*nexa light*/
+color: #fff;
+font-size: 25px;
+}
+.top-text{
+/*nexa bold*/    
+color: #fff;
+font-size: 30px;
+}
