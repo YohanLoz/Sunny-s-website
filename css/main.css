@@ -24,6 +24,7 @@ html, body  /* hard reset for the margins and paddings, this can be a pain to wo
 html{
     font-family: Nexa, Arial, Helvetica, sans-serif;
 }
+
 body{
     display:grid;
     grid-template-columns: repeat(10, 1fr);
@@ -31,7 +32,7 @@ body{
 }
 
 header{ /* rares, you're in charge of this */
-    grid-column: 1 / 10;
+    grid-column: 1 / 11;
 }
 
 h1, h2, h3{
@@ -74,4 +75,32 @@ footer{
 }
 .white *{                     /* simple class for white text (attach to container) */
     color:white;
+}
+
+
+
+        /* mobile specific exeptions */
+
+@media screen and (max-width: 768px) {
+
+    body{
+        grid-column-gap: 5vw; /* seems about right */
+    }
+
+    h1{
+        font-size: 2.5rem;    /* font size of 30 px */
+    }
+    
+    h2{
+        font-size: 2.5rem;    /* font size of 30 px */
+    }
+    
+    h3{
+        font-size: 2.5rem;    /* font size of 30 px */
+    }
+    
+    p{
+        font-size: 1.3rem;    /* font size of 15 px*/
+    }
+
 }
