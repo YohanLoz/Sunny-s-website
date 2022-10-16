@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
-}
+} 
+h1{
+	 color:black;
+ }
 
 
 ul {
@@ -113,14 +116,35 @@ text-align: center;
   width: 100%;
   }
   .toplink1{
- display: none;  }
+ display: none;  
+ }
+ 
   .toplink2{
- display: none;  }
+ display: none;  
+ }
+ 
   .toplink3{
 	 display: none;
   }
   .toplink4{
 	 display: none;
   }
+}
+ @media only screen and (min-width: 768px) {
+.dropdown-click{
+	display: none;
+}
+  
+.mobilemeniu{
+	display: none;
+
+}
+.buttonbox{
+	display: none;
+
+}
+
+  
+  
 }
  
