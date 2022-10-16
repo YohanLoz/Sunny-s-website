@@ -12,22 +12,21 @@
 body{
 	margin: 0;
     padding: 0;
-
 }
 
 #container {
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
-/*	grid-template-rows: repeat(10, 1fr); */ 
 }
 
 header {
-		background-color: grey;
-		grid-column: 1/11;
+	grid-column: 1/11;
+	background-color: grey;
 }
 
 h1 {
-	grid-column: 2/7;
+	display: grid;
+	grid-column: 2/10;
 	
 	font-family: Nexa;
 	font-weight: bold;
@@ -36,44 +35,43 @@ h1 {
 	color: #1E407A;
 }
 
-.img1 {
-	grid-column: 2/7;
+.sockandp {
+	grid-column: 2/10;
 	
-	width: 604px;
-	height: 481px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	
+    flex-direction: row;
+
+    justify-content:space-around;
 }
 
-.p1 {
-	grid-column: 8/10;
-
-	font-family: Nexa;
-	font-size: 25px;
-	text-align: right;
+.flex-item-left {
+  background-color: pink;
+  width: 50%;
 }
 
-/*
-.scrolldown button {
-	display: ;
-	
-	width: 280px;
-	height: 57px;
+.flex-item-right {
+  background-color: yellow;
+  width: 50%;
+}
 
-	grid-column: 9/10;
-	grid-rows: 2/3;
-}  */
+@media screen and (max-width: 700px) {
+  .sockandp {   
+    flex-direction: column;
+  }
+}
 
-#blueframe {
-	grid-template-columns: repeat(10, 1fr);
+		/* BLUE FRAME */
+.blueframe {
 	display: grid;
-
-	position: absolute;
-	width: 100%;
-
-	height: 1024px;
-	top: 1024px;
+	grid-column: 1/11;
+	
+	grid-template-columns: inherit;
 	
 	background-color: #1E407A;
-} 
+}
 
 h2 {
 	display: grid;
@@ -86,84 +84,48 @@ h2 {
 	color: white;
 }
 
-.img2 {
-	grid-column: 2/7;
-
+.fishandp {
+	grid-column: 2/10;
 	
-	width: 604px;
-	height: 481px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	
+    flex-direction: row;
+
+    justify-content:space-around;
 }
 
-.p2 {
-	grid-column: 8/10;
-
-	font-family: Nexa;
-	font-size: 25px;
-	text-align: right;
-	
-	color: #D9D9D9;
+.flex-item-left2 {
+  background-color: pink;
+  width: 50%;
 }
 
-#whiteframe {
-	grid-template-columns: repeat(10, 1fr);
-	display: grid;
-
-	position: absolute;
-	width: 100%;
-
-	height: 1001px;
-	top: 2200px;
-	
-	background-color: white;
-} 
-
-#mission {
-	grid-column: 2/6; 
-/*	grid-rows: 7/8; */
-	
-	font-family: Nexa;
-	font-weight: bold;
-	font-size: 85px;
-	
-	text-align: left;
-
-	color: #1E407A;
+.flex-item-right2 {
+  background-color: yellow;
+  width: 50%;
 }
 
-#vision {
-	grid-column: 6/10;
-/*	grid-rows: 7/8; */
+@media screen and (max-width: 700px) {
+  .fishandp {   
+    flex-direction: column;
+  }
+}
+		/* BLUE FRAME END */
 		
-	font-family: Nexa;
-	font-weight: bold;
-	font-size: 85px;
-	
-	text-align: right;
-
-	color: #1E407A;
-}
-
-#Pmission {
+		
+		/* MISSION & VISION */
+.mission {
 	grid-column: 2/5;
 
-	font-family: Nexa;
-	font-size: 35px;
-
-	color: black;
 }
 
-#Pvision {
-	grid-column: 7/10;
-
-	font-family: Nexa;
-	font-size: 35px;
-	
-	text-align: right;
-
-	color: black;
+.vision {
+	grid-column: 6/10;
 }
 
-/* pink box */ 
+
+		/*  PINK BOX */
 .pinkbox {
 	display: grid;
 	grid-column: 2/10;
@@ -178,6 +140,9 @@ h4 {
 
 	text-align: center;
 	color: #FFFFFF;
+	
+	margin-top: 60px;
+	margin-bottom: 15px;
 }
 
 #buttons {
@@ -185,6 +150,10 @@ h4 {
 	justify-content: space-evenly;
 	align-items: center;
 	list-style-type: none;
+	
+	font-family: Nexa;
+	font-weight: bold;
+	font-size: 25px;
 }
 
 #email {
@@ -201,10 +170,6 @@ h4 {
 	/* font */
 	width: 71px;
 	height: 25px;
-
-	font-family: Nexa;
-	font-weight: bold;
-	font-size: 25px;
 
 	color: #E990B9;
 }
@@ -224,10 +189,6 @@ h4 {
 	/* font */
 	width: 213px;
 	height: 25px;
-
-	font-family: Nexa;
-	font-weight: bold;
-	font-size: 25px;
 
 	color: #FFFFFF;
 }
