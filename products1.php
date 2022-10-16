@@ -36,7 +36,9 @@
             
             <h2>classic:<br/>stripes.</h2>
 
-            <a href="" class="mobileOnly">learn more ></a>
+            <a href="products2.php" class="mobileOnly">learn more ></a> 
+            <!--if turned into an overlay: i should probably import it, position fixed, 
+            width = viewport, and move it right outside the viewport-->
             
             <div class="scrollingsocks">
                 <div>
@@ -46,16 +48,16 @@
             </div>
             
             <div class="linkcontainer pcOnly">
-                <a href="">learn more ></a>
+                <a href="products2.php">learn more ></a>
                 <br/>
-                <a href="" class="pcOnly">our webshop ></a>
+                <a href="webshop.php" class="pcOnly">our webshop ></a>
             </div>
 
         </section>
 
         <section id="classicUni" class="product">
 
-            <a href="" class="mobileOnly">learn more ></a>
+            <a href="products2.php" class="mobileOnly">learn more ></a>
             <h2>classic:<br/>uni color.</h2>
             
             <div class="scrollingsocks">
@@ -66,9 +68,9 @@
             </div>
 
             <div class="linkcontainer">
-                <a href="" class="pcOnly">learn more ></a>
+                <a href="products2.php" class="pcOnly">learn more ></a>
                 <br/>
-                <a href="">our webshop ></a>
+                <a href="webshop.php">our webshop ></a>
             </div>
         </section>
 
@@ -83,14 +85,14 @@
 
             <div id="germanResell">
                 <h3>in<br/>Germany:</h3>
-                <a href="">amazon.de ></a>
+                <a href="https://www.amazon.de">amazon.de ></a>
             </div>
 
             <div id="dutchResell">
                 <h3>in the<br/>Netherlands:</h3>
-                <a href="">hema.com ></a>
+                <a href="https://www.hema.com">hema.com ></a>
                 <br/>
-                <a href="">bol.com ></a>
+                <a href="https://www.bol.com">bol.com ></a>
             </div>
 
         </section>
