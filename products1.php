@@ -9,7 +9,7 @@
 
     <body>
         <header>
-            <h1 style="background-color:coral;margin:0;"">this is the head (for now)</h1>
+            <h1 style="background-color:coral;margin:0;">this is the head (for now)</h1>
         </header>
 
         <section id="title">
