@@ -46,11 +46,12 @@
         </div>
 </section> 
 
-<div class="button">
-    <form action="">
-        <button>Subscribe</button>
-    </form>
-</div>
+
+<button class="button1"><p>Subscribe</p></button>
+
+<section class="bottomtxt">
+    <h1>Contact us</h1>
+</section>
 
 
 
