@@ -53,7 +53,42 @@
     <h1>Contact us</h1>
 </section>
 
+<section id="pinksocks">
+    <div class="pinksock1">
+    <img src="img/pinksock.png" alt="pinksock1">
+    </div>
+    <div class="pinksock2">
+    <img src="img/pinksock.png" alt="pinksock2">
+    </div>
+    <div class="pinksock3">
+    <img src="img/pinksock.png" alt="pinksock3">
+    </div>
+</section>
 
+<section id="contactleft">
+    <div class="contact1"><p><b>Sales</b><br>
+        Suzan Jong <br>+31 6 12 12 12 12<br>
+        suzan@sunny.com</p>
+    </div>
+    <div class="contact2"><p><b>Sales</b><br>
+        Suzan Jong <br>+31 6 12 12 12 12 <br>
+        suzan@sunny.com</p>
+    </div>
+    <div class="contact3"><p><b>Sales</b><br>
+        Suzan Jong <br>+31 6 12 12 12 12 <br>
+        suzan@sunny.com</p>
+    </div>
+</section>
 
-    </body>
-</html>
+<section id="greensocks">
+    <div class="greensock1">
+    <img src="img/greensock.png" alt="greensock1">
+    </div>
+    <div class="greensock2">
+    <img src="img/greensock.png" alt="greensock2">
+    </div>
+    <div class="greensock3">
+    <img src="img/greensock.png" alt="greensock3">
+    </div>
+</section>
+

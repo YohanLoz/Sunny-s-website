@@ -1,8 +1,14 @@
 
+body{
+background: linear-gradient(#ffffff 70%, #D9D9D9 30%);;
+}
+footer{
+    background: #D9D9D9;
+}
 #toptext{
-grid-column: 2 / 10;
-text-align: center;
-margin-top: 11.042vw;
+    grid-column: 2 / 10;
+    text-align: center;
+    margin-top: 11.042vw;
 }
 
 .toptext1{
@@ -46,10 +52,76 @@ margin: 0;
     margin-left: 18px;
     border: none;
     border-radius: 10px;
+    margin-left: 100px;
+}
 
+.button1 p{
+    margin: 0;
 }
 
 .bottomtxt{
-    grid-column: 3/10;
+    grid-column: 1/10;
+    margin-top: 6.597vw;
+    text-align: center;
+    margin-left: 14vw;
 }
+
+#pinksocks{
+    grid-column: 2/3;
+    height: 200px;
+    width: 200px;
+    text-align: start;
+}
+
+.pinksock1{
+    margin: 40px 40px 40px 0px;
+}
+
+.pinksock2 {
+    margin: 40px 40px 40px 0px;
+}
+
+.pinksock3 {
+    margin: 40px 40px 40px 0px;
+}
+
+#contactleft{
+    margin:0;
+    grid-column: 3/7;
+}
+
+.contact1{
+margin-left: 50px;
+margin-bottom: 132px;
+}
+
+.contact2 {
+margin-left: 50px;
+margin-bottom: 132px;
+}
+
+.contact3 {
+margin-left: 50px;
+}
+
+#greensocks {
+    grid-column: 7/7;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+.greensock1 {
+    margin: 40px 40px 40px 0px;
+}
+.greensock2 {
+    margin: 40px 40px 40px 0px;
+}
+.greensock3 {
+    margin: 40px 40px 40px 0px;
+}
+
+
+
+
 
