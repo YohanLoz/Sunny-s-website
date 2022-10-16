@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url("../fonts/Nexa\ Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Nexa';
+    font-weight: bold;
+    src: url("../fonts/Nexa\ Bold.otf") format("opentype");
+}
+
+body{
+	margin: 0;
+    padding: 0;
+
+}
+
+#container {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+/*	grid-template-rows: repeat(10, 1fr); */ 
+}
+
+header {
+		background-color: grey;
+		grid-column: 1/11;
+}
+
+h1 {
+	grid-column: 2/7;
+	
+	font-family: Nexa;
+	font-weight: bold;
+	font-size: 110px;
+	
+	color: #1E407A;
+}
+
+.img1 {
+	grid-column: 2/7;
+	
+	width: 604px;
+	height: 481px;
+}
+
+.p1 {
+	grid-column: 8/10;
+
+	font-family: Nexa;
+	font-size: 25px;
+	text-align: right;
+}
+
+/*
+.scrolldown button {
+	display: ;
+	
+	width: 280px;
+	height: 57px;
+
+	grid-column: 9/10;
+	grid-rows: 2/3;
+}  */
+
+#blueframe {
+	grid-template-columns: repeat(10, 1fr);
+	display: grid;
+
+	position: absolute;
+	width: 100%;
+
+	height: 1024px;
+	top: 1024px;
+	
+	background-color: #1E407A;
+} 
+
+h2 {
+	display: grid;
+	grid-column: 2/7;
+	
+	font-family: Nexa;
+	font-weight: bold;
+	font-size: 90px;
+
+	color: white;
+}
+
+.img2 {
+	grid-column: 2/7;
+
+	
+	width: 604px;
+	height: 481px;
+}
+
+.p2 {
+	grid-column: 8/10;
+
+	font-family: Nexa;
+	font-size: 25px;
+	text-align: right;
+	
+	color: #D9D9D9;
+}
+
+#whiteframe {
+	grid-template-columns: repeat(10, 1fr);
+	display: grid;
+
+	position: absolute;
+	width: 100%;
+
+	height: 1001px;
+	top: 2200px;
+	
+	background-color: white;
+} 
+
+#mission {
+	grid-column: 2/6; 
+/*	grid-rows: 7/8; */
+	
+	font-family: Nexa;
+	font-weight: bold;
+	font-size: 85px;
+	
+	text-align: left;
+
+	color: #1E407A;
+}
+
+#vision {
+	grid-column: 6/10;
+/*	grid-rows: 7/8; */
+		
+	font-family: Nexa;
+	font-weight: bold;
+	font-size: 85px;
+	
+	text-align: right;
+
+	color: #1E407A;
+}
+
+#Pmission {
+	grid-column: 2/5;
+
+	font-family: Nexa;
+	font-size: 35px;
+
+	color: black;
+}
+
+#Pvision {
+	grid-column: 7/10;
+
+	font-family: Nexa;
+	font-size: 35px;
+	
+	text-align: right;
+
+	color: black;
+}
+
+/* pink box */ 
+.pinkbox {
+	display: grid;
+	grid-column: 2/10;
+	
+	background: #E990B9;
+}
+
+h4 {
+	font-family: Nexa;
+	font-weight: bold;
+	font-size: 50px;
+
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#buttons {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	list-style-type: none;
+}
+
+#email {
+	/* box */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 15px 312px 15px 15px;
+	gap: 15px;
+
+	background: #D9D9D9;
+	border-radius: 5px;
+	
+	/* font */
+	width: 71px;
+	height: 25px;
+
+	font-family: Nexa;
+	font-weight: bold;
+	font-size: 25px;
+
+	color: #E990B9;
+}
+
+#subscribebutton {
+	/* button */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	gap: 15px;
+
+	background: #E990B9;
+	border-radius: 5px;
+	
+	/* font */
+	width: 213px;
+	height: 25px;
+
+	font-family: Nexa;
+	font-weight: bold;
+	font-size: 25px;
+
+	color: #FFFFFF;
+}
+
+#pinktext {
+	display: flex;
+	justify-content: center;
+	
+	font-family: Nexa;
+	font-size: 25px;
+	letter-spacing: 0.03em;
+
+	color: #FFFFFF;
+}
