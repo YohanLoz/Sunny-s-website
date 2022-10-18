@@ -29,6 +29,7 @@ body{
     display:grid;
     grid-template-columns: repeat(10, 1fr);
     grid-column-gap: 1.042vw; /* 20px calculated from a 1920px screen */
+	
 }
 
 header{ /* rares, you're in charge of this */

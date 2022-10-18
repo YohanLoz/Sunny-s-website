@@ -16,7 +16,7 @@
 			<a href="#" class="toplink2">Products</a>
 			<a href="#" class="toplink3">Contacts</a>
 			<a href="#here" class="toplink4">About us</a>
-			<button onclick="dropdown()" class="mobilebutton"><img id="mobileButton"src="img/mobileButton.png"  alt="mobileButton"></button>
+			<button  class="mobilebutton"><img id="mobileButton"src="img/mobileButton.png"  alt="mobileButton"></button>
 		
     </div>
 </div>
@@ -24,13 +24,13 @@
 </header>
  <body > 
  
-<div class="buttonbox">
-<a href="#" class="button">Link Button</a>
+<div class="backButton">
+<a href="#" id="backButton"><img src="img/Arrow-29.jpg"  alt="Arrow-29"></a>
 </div>
 
 <div class="box">
  <h1 id="here">Sorry, we’re doing some work on the site.</h1>
- <p id="txt">Thank you for being patient!<br></br> We are doing some work and will add our webshop shortly.</p>
+ <p id="txt">Thank you for being patient!<br> We are doing some work and will add our webshop shortly.</p>
  <img id="webShop"src="img/webShop.png"  alt="webShop">
 <h1 >a random fun fact of our company.</h1>
 
@@ -39,7 +39,7 @@
  
  
  <div id="dropdown" class="mobilemeniu">
-<ul>
+<ul class="links">
   <li><a href="#home">>Home</a></li>
   <li><a href="#news">>News</a></li>
   <li><a href="#contact">>Contact</a></li>
@@ -47,23 +47,30 @@
 </ul>
 </div>
 
+<script>
 
+            let click = document.querySelector('.mobilebutton');
+
+            let list = document.querySelector('.mobilemeniu');
+
+            click.addEventListener("click",()=>{
+
+                list.classList.toggle('newlist');
+
+            });
+
+        </script>
 
   
   
+
+
 
 
 
 
  </body> 
  
- 
- 
- <footer>
- 
- <script type="text/javascript" src="javascript/dropdownMenu.js"/>
- 
- </footer>
  
  </html>
  
