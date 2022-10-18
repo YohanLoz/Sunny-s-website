@@ -1,0 +1,189 @@
+header{
+    grid-column: 1/12;
+    background-color: white;
+    box-shadow: 1px 5px 5px black;
+    min-height: 80px;
+}
+.slogandiv{
+    min-height: 200px;
+    grid-column: 1/8;
+}
+.slogan{
+    
+    font-family: 'Nexa';
+    font-style: normal;
+    font-weight: Bold;
+    font-size: 90px;
+    line-height: 90px;
+    color: #1E407A;
+    
+}
+.arrow{
+    margin-left: 52px;
+    margin-top: 37px;
+}
+.herotext{
+    font-family: Nexa Light;
+    min-width: 300px;
+    
+}
+.box1{
+
+}
+.box2{
+margin-left: 146px;
+min-width: 260px;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 500px;
+}
+h3{
+    font-family: Nexa Bold;
+}
+
+.blue {
+  width: 50px;
+  height: 50px;
+  background: rgba(30,64,122,1);
+  opacity: 1;
+  border-radius: 50%;
+}
+.green {
+  width: 50px;
+  height: 50px;
+  background: rgba(81,178,162,1);
+  opacity: 1;
+  border-radius: 50%;
+}
+.pink {
+  width: 50px;
+  height: 50px;
+  background: rgba(233,144,185,1);
+  opacity: 1;
+  border-radius: 50%;
+}
+.orange {
+  width: 50px;
+  height: 50px;
+  background: rgba(241,91,57,1);
+  opacity: 1;
+  border-radius: 50%;
+}
+.yellow {
+  width: 50px;
+  height: 50px;
+  background: rgba(254,205,62,1);
+  opacity: 1;
+  border-radius: 50%;
+}
+.container2{
+  display: flex;
+  gap: 20px;
+}
+
+.footer{
+  width: 1170px;
+  height: 750px;
+  background: rgba(81,178,162,1);
+  opacity: 1;
+  overflow: hidden;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 235px;
+  flex-direction: column;
+  align-content: center;
+}
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+.available{
+  padding-top: 100px;
+  margin-top: 100px;
+
+}
+.ourwebshop p{
+    font-family: Nexa;
+font-weight: bold;
+font-size: 90px;
+}
+.footerh1{
+    color: white;
+    align-content: center;
+    margin-left: 395px;
+    max-width: 60px;
+    font-weight: Regular;
+    font-size: 90px;
+    opacity: 1;
+    text-align: center;
+    line-height: 0.9;
+}
+.footerh2{
+    max-width: 800px;
+    font-family: Nexa Light;
+    margin-left: 180px;
+    color: rgba(217,217,217,1);
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+  line-height: 0.1;
+}
+.divfooter{
+    margin-bottom: 20px;
+
+}
+.footerp{
+    font-family: Nexa;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+  margin-left: 147px;
+  position: absolute;
+  width: 20px;
+  color: white;
+}
+.footerp2{
+    font-family: Nexa;
+    font-weight: bold;
+  font-size: 50px;
+  margin-left: 800px;
+  position: absolute;
+  max-width: 200px;
+  color: white;
+}
+.footerp3{
+    font-family: Nexa;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+  margin-left: 147px;
+ margin-top: 240px;
+ position: absolute;
+ 
+
+  
+  color: black;
+}
+.footerp4{
+   font-family: Nexa;
+   font-weight: bold;
+  font-size: 50px;
+  margin-left: 800px;
+  position: absolute;
+  max-width: 200px;
+  color: black;
+  position: absolute;
+  margin-top: 200px;
+  max-width: 400px;
+}
+
