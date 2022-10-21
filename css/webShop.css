@@ -14,6 +14,10 @@
   box-sizing: border-box;
 } 
 
+.content{
+	margin-top:10%;
+}
+
 a{
 	font-family: Nexa, Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -46,6 +50,15 @@ li a {
   color:white;
 }
 
+.container{
+	 display: flex;
+	 position: fixed;
+	 Top:0;
+   background-color: white;         /* this is the flexbox containg the grid for header*/
+   border: 1px solid;
+  box-shadow: 3px 4px #d3d0d0;
+}
+
 
 .grid{
 	display: grid;
@@ -55,12 +68,6 @@ align-items: center;
 	width:100%;
 height:auto;
 
-}
-.container{
-	 display: flex;
-   background-color: white;         /* this is the flexbox containg the grid for header*/
-   border: 1px solid;
-  box-shadow: 3px 4px #d3d0d0;
 }
 
 
@@ -97,6 +104,7 @@ height:auto;
 }
 .backButton{
 	justify-content: center;
+	
 	align-items: center;
 	grid-column:1/ span 1;
 	width:30%;
