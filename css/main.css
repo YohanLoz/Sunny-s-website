@@ -33,7 +33,7 @@ body{
 }
 
 header{ /* rares, you're in charge of this */
-    grid-column: 1 / 11;
+    grid-column: 1 / 12;
 }
 
 h1, h2, h3{
