@@ -16,7 +16,7 @@
 
 .content{
 	display: grid;
-grid-template-columns: repeat(10, 1fr);
+	grid-template-columns: repeat(10, 1fr);
 	margin-top:5%;
 }
 p{
@@ -72,6 +72,7 @@ li a {
 header/*.container*/{
 	display: flex;
 	position: fixed;
+	
 	Top:0;
 	Left:0;
 	margin:0;
@@ -87,7 +88,7 @@ header/*.container*/{
 	align-items: center;
     justify-content: center;
 	width:100%;
-	height:auto;
+	height:100%;
 
 }
 
@@ -200,12 +201,14 @@ header/*.container*/{
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: <img id="dot" src="img/mobileButton.png"  alt="mobileButton"> */
-  
-   body{
-    grid-column-gap: 5vw; 
+  .content{
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-column-gap: 5vw; 
+	margin-top:8%; 
 	height:auto;
     width: 100%;
-    }
+}
 
     h1{
         font-size: 1.5rem;    
@@ -230,7 +233,7 @@ header/*.container*/{
   .backButton{
 	 
 	position: fixed;
-	Top:10%;
+	Top:15%;
 	Left:5%;
 	justify-content: center;
 	align-items: center;
@@ -245,7 +248,7 @@ header/*.container*/{
 	width:100%;
 	height:auto;
 	object-fit: cover;
-	object-position: 15% 100%;
+	object-position: 100% 100%;
 	margin-bottom:10px
 }
   
@@ -257,7 +260,10 @@ header/*.container*/{
 	border-radius: 100%;
 	background-color: 1E407A;
   }
-
+.container{
+	 height:10Vh;
+  width: 100%;
+}
 .grid{ 
   height:auto;
   width: 100%;
@@ -293,7 +299,7 @@ header/*.container*/{
 	height:100%;
 	width:30%;
 	Right:0;
-	Top:7%;
+	Top:10Vh;
 	align-items:center;
 	
 	transform: scaleX(0);
