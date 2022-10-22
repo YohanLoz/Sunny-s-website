@@ -48,23 +48,25 @@ h1 {
 ul {
   list-style-type: none;
   margin: 0;
-  
+  height:200%;
   
   
 }
 
 li a {
   display: block;
+  font-weight: bold;
   width:100%;
+  align-items:center;
   background-color: #22457D;
   color:white;
-  padding: 10px;
+  padding: 20px;
   bottom:10px
 }
 
 
 .webShop{
-	grid-column: 4/  8;
+	grid-column: 3/  9;
 }
 
 header/*.container*/{
@@ -137,18 +139,21 @@ header/*.container*/{
 	box-shadow: 0px 4px #d3d0d0;
 	
 }
-
+.circle{
+	width: 20px; 
+	height: 20px; 
+	border-radius: 100%;
+	background-color: #1E407A;
+}
 .mobilebutton{
 	display: none;
-	color: white;
 	border: none;
-	border-radius: 20px;
 	grid-column: 12/ span 1;
 	align-items:center;
-	width:50%;
-	height:70%;
 	margin:0px;
 	padding:0px;
+	width: 20px; 
+	height: 20px; 
 	
 }
 /*
@@ -194,7 +199,7 @@ header/*.container*/{
 
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+  /* For mobile phones: <img id="dot" src="img/mobileButton.png"  alt="mobileButton"> */
   
    body{
     grid-column-gap: 5vw; 
@@ -247,7 +252,10 @@ header/*.container*/{
   
 .mobilebutton{
 	display: block;
-	color: white;
+	width: 20px; 
+	height: 20px; 
+	border-radius: 100%;
+	background-color: 1E407A;
   }
 
 .grid{ 
@@ -285,7 +293,7 @@ header/*.container*/{
 	height:100%;
 	width:30%;
 	Right:0;
-	Top:9%;
+	Top:7%;
 	align-items:center;
 	
 	transform: scaleX(0);
