@@ -37,9 +37,16 @@
  <p id="txt">Thank you for being patient!<br> We are doing some work and will add our webshop shortly.</p>
  <div class="webShop"><img id="webShopimg"src="img/webShop.png"  alt="webShop"></div>
 <h1 >
-<?php
-echo "My first PHP script!";
-?>
+
+	<?php
+	
+	
+	$randome_variable = rand(0,4);
+	$facts = array("1","2","3","4");
+	echo $facts[$randome_variable];
+	
+	?>
+
 </h1>
 
 
