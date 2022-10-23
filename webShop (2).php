@@ -36,7 +36,11 @@
  <h1 id="here">Sorry, we’re doing some work on the site.</h1>
  <p id="txt">Thank you for being patient!<br> We are doing some work and will add our webshop shortly.</p>
  <div class="webShop"><img id="webShopimg"src="img/webShop.png"  alt="webShop"></div>
-<h1 >a random fun fact of our company.</h1>
+<h1 >
+<?php
+echo "My first PHP script!";
+?>
+</h1>
 
 
  
@@ -44,9 +48,9 @@
  
  <div id="dropdown" class="mobilemeniu">
 <ul class="links">
-  <li><a href="index.html">>Home Page</a></li>
-  <li><a href="products1.php">>Products</a></li>
-  <li><a href="contact.php">>Contact</a></li>
+  <li ><a id="up" href="index.html">>Home Page</a></li>
+  <li><a  href="products1.php">>Products</a></li>
+  <li ><a id="down" href="contact.php">>Contact</a></li>
 </ul>
 </div>
 

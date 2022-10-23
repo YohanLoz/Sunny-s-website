@@ -51,9 +51,16 @@ ul {
   list-style-type: none;
   margin: 0px;
   height:200%;
-  padding-bottom: 50px;
   
   
+  
+}
+
+#down{
+	padding-bottom: 50px;
+}
+#up{
+	padding-top: 50px;
 }
 
 li a {
