@@ -43,12 +43,15 @@ h1 {
 	  font-size: 3rem; 
 	  text-align:center;
  }
-
+li {
+	
+}
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0px;
   height:200%;
+  padding-bottom: 50px;
   
   
 }
@@ -58,10 +61,11 @@ li a {
   font-weight: bold;
   width:100%;
   align-items:center;
+  
   background-color: #22457D;
   color:white;
   padding: 20px;
-  bottom:10px
+  
 }
 
 
@@ -286,6 +290,7 @@ header/*.container*/{
 
 .links{
 	align-items:center;
+	
 }
 
 .mobilebutton,.links{
@@ -297,7 +302,7 @@ header/*.container*/{
 	grid-column: 11/ span 1;
 	position:fixed;
 	height:100%;
-	width:30%;
+	width:40%;
 	Right:0;
 	Top:10Vh;
 	align-items:center;
