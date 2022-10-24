@@ -9,6 +9,10 @@
     src: url("../fonts/Nexa\ Bold.otf") format("opentype");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
 	margin: 0;
     padding: 0;
@@ -100,7 +104,28 @@ h1 {
 	font-size: 15px;
 	padding: 15%;
   }
-  
+}
+
+#scrolldown > img {
+	height: 50px;
+	width: auto;
+	
+	margin-top: 80px;
+	margin-left: 380px;
+}
+
+ #scrolldown > img:hover {
+	box-shadow: 0px 4px 4px #888888; 
+}
+
+@media screen and (max-width: 700px) {
+#scrolldown > img {
+	height: 25px;
+	width: auto;
+	
+	margin-top: -50px;
+	margin-left: 0px;
+}
 }
 
 		/* BLUE FRAME */
@@ -342,5 +367,35 @@ h4 {
 	font-size: 15px;
 	padding-left: 10%;
 	padding-right: 10%;
+}
+}
+
+.scrollup {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+}
+
+.scrollup > a {
+	display: grid;
+	grid-column: 9/10;
+}
+
+#scrollup > img {
+	height: 60px;
+	width: auto;
+	
+	margin-left: 95px;
+	margin-bottom: 93px;
+	margin-top: 56px; 
+}
+
+@media screen and (max-width: 700px) {
+#scrollup > img {
+	height: 25px;
+	width: auto;
+	
+	margin-left: 20px;
+	margin-bottom: 40px;
+	margin-top: 30px; 
 }
 }
