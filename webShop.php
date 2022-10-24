@@ -13,9 +13,9 @@
 		   
 		  <img id="logo"src="img/sunny_logos_slogan_blue.png"  alt="logo">
 			<a href="index.html" class="toplink1">Home</a>
-			<a href="aboutus.php" class="toplink2">About us</a>
+			<a href="here" class="toplink2">About us</a>
 			<a href="products1.php" class="toplink3">Products</a>
-			<a href="contact.php" class="toplink4">Contacts</a>
+			<a href="contact.php" class="toplink4">Contact</a>
 			
 			<button  class="mobilebutton"><div class="circle"></div></button>
 		
@@ -41,8 +41,8 @@
 	<?php
 	
 	
-	$randome_variable = rand(0,4);
-	$facts = array("0","1","2","3","4");
+	$randome_variable = rand(0,5);
+	$facts = array("Best socks in the univers","Number 1 sock distributor","Socks like your grandma used","Best design in the world","Sunny socks X NHL Stenden","Every fifth purchese we plant a new sapling");
 	echo $facts[$randome_variable];
 	
 	?>
