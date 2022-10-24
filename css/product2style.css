@@ -2,7 +2,6 @@ header{
     grid-column: 1/12;
     background-color: white;
     box-shadow: 1px 5px 5px black;
-    min-height: 80px;
 }
 .slogandiv{
     min-height: 200px;

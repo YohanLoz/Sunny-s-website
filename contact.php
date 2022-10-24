@@ -10,8 +10,30 @@
     </head>
     <body>
         <header>
-            <h1 style="background-color:coral;margin:0;">this is the head (for now)</h1>
+
+            <div class="container">
+                <div class="grid">
+            
+            
+                    <img id="logo"src="img/sunny_logos_slogan_blue.png"  alt="logo">
+                    <a href="index.html" class="toplink1">Home page</a>
+                    <a href="#" class="toplink2">About Us</a>
+                    <a href="products1.php" class="toplink3">Products</a>
+                    <a href="contact.php" class="toplink4">Contact</a>
+                
+                    <button  class="mobilebutton"><div class="circle"></div></button>
+            
+                </div>
+            </div>
+
         </header>
+        <div id="dropdown" class="mobilemeniu">
+            <ul class="links">
+                <li ><a id="up" href="index.html">> Home Page</a></li>
+                <li><a  href="products1.php">> Products</a></li>
+                <li ><a id="down" href="contact.php">> Contact</a></li>
+            </ul>
+        </div>
 
 <section id = toptext>
             <div class="toptxt1"><h1>Stay in touch!<h1>
@@ -92,3 +114,7 @@
     </div>
 </section>
 
+<footer>
+    <script src="functions/header.js"></script>
+</footer>
+</body>

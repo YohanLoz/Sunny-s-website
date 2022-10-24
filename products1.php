@@ -9,8 +9,29 @@
 
     <body>
         <header>
-            <h1 style="background-color:coral;margin:0;">this is the head (for now)</h1>
+            <div class="container">
+                <div class="grid">
+		
+		   
+                    <img id="logo"src="img/sunny_logos_slogan_blue.png"  alt="logo">
+                    <a href="index.html" class="toplink1">Home page</a>
+                    <a href="#" class="toplink2">About Us</a>
+                    <a href="products1.php" class="toplink3">Products</a>
+                    <a href="contact.php" class="toplink4">Contact</a>
+			
+		            <button  class="mobilebutton"><div class="circle"></div></button>
+		
+                </div>
+            </div>
         </header>
+
+        <div id="dropdown" class="mobilemeniu">
+		    <ul class="links">
+  			    <li ><a id="up" href="index.html">> Home page</a></li>
+  			    <li><a  href="products1.php">> Products</a></li>
+  			    <li ><a id="down" href="contact.php">> Contact</a></li>
+		    </ul>
+        </div>
 
         <section id="title">
             <h1>Meet the classics.</h1>
@@ -57,7 +78,7 @@
 
         <section id="classicUni" class="product">
 
-            <a href="products2.php" class="mobileOnly">learn more ></a>
+            <a href="products3.php" class="mobileOnly">learn more ></a>
             <h2>classic:<br/>uni color.</h2>
             
             <div class="scrollingsocks">
@@ -68,7 +89,7 @@
             </div>
 
             <div class="linkcontainer">
-                <a href="products2.php" class="pcOnly">learn more ></a>
+                <a href="products3.php" class="pcOnly">learn more ></a>
                 <br/>
                 <a href="webshop.php">our webshop ></a>
             </div>
@@ -98,5 +119,8 @@
         </section>
 
     </body>
- 
+
+    <footer>
+	    <script src="functions/header.js"></script> 
+    </footer>
 </html>
