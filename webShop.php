@@ -41,8 +41,8 @@
 	<?php
 	
 	
-	$randome_variable = rand(0,4);
-	$facts = array("Best socks in the univers","Number 1 sock distributor","Socks like your grandma used","Best design in the world","Sunny socks X NHL Stenden");
+	$randome_variable = rand(0,5);
+	$facts = array("Best socks in the univers","Number 1 sock distributor","Socks like your grandma used","Best design in the world","Sunny socks X NHL Stenden","Every fifth purchese we plant a new sapling");
 	echo $facts[$randome_variable];
 	
 	?>
