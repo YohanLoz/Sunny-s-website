@@ -260,7 +260,7 @@ header/*.container*/{
 	height:auto;
 	object-fit: cover;
 	object-position: 100% 100%;
-	margin-bottom:10px
+	margin-bottom:2vh;
 }
   
   
@@ -272,7 +272,7 @@ header/*.container*/{
 	background-color: 1E407A;
   }
 .container{
-	 height:10Vh;
+	 height:8Vh;
   width: 100%;
 }
 .grid{ 
