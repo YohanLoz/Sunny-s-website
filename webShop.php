@@ -15,7 +15,7 @@
 			<a href="index.html" class="toplink1">Home</a>
 			<a href="here" class="toplink2">About us</a>
 			<a href="products1.php" class="toplink3">Products</a>
-			<a href="contact.php" class="toplink4">Contacts</a>
+			<a href="contact.php" class="toplink4">Contact</a>
 			
 			<button  class="mobilebutton"><div class="circle"></div></button>
 		
