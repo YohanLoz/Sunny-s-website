@@ -28,7 +28,7 @@ html{
 header{
 	display: flex;
 	position: fixed;
-	
+	width:100%;
 	Top:0;
 	Left:0;
 	margin:0;
@@ -42,9 +42,9 @@ header * {
 }
 
 header #logo{
-	height:auto;
-	width:100%;
-	grid-column: 2/ span 2;
+	height:4.44vw;
+	width:auto;
+	grid-column: 2/ 3;
 }
 
 header .grid{
@@ -53,7 +53,8 @@ header .grid{
 	align-items: center;
     justify-content: center;
 	width:100%;
-	height:100%;
+	
+	height:6vw;
 }
 
 header .toplink1{                      /* toplinks = links for header*/
@@ -92,7 +93,7 @@ header a{
 	font-family: Nexa, Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: black;
-	font-size: 2rem;
+	font-size: 1.2rem;
 	text-decoration: none;
     white-space: nowrap;
 }
