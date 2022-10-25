@@ -32,7 +32,7 @@ if(isset($_POST["send"])){
     // $_POST["message"];
     $mail->send();
     
-     if ($mail->Send()) { header("Location:/sunny-s-website/index.php");  } 
+     if ($mail->Send()) { header("Location:/sunny-s-website/index.html");  } 
 
 }
 

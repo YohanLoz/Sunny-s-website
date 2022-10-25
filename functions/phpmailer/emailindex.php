@@ -19,8 +19,7 @@
                 name ="email" value="" 
                 placeholder="Email:">
 
-
-                <a href="index.php">
+                <a href="emailindex.php">
                 <button type="submit" 
                 name="send">Subscribe for free</button></a></p>
                     <div class="bottom-text">
