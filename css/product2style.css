@@ -1,8 +1,4 @@
-header{
-    grid-column: 1/12;
-    background-color: white;
-    box-shadow: 1px 5px 5px black;
-}
+
 .slogandiv{
     min-height: 200px;
     grid-column: 1/8;
@@ -97,7 +93,8 @@ h3{
 .maincontainer{
     display: flex;
     flex-direction: column;
-    margin-left: 90px;
+    margin-top: 120px;
+    margin-right: 200px;
 }
 .available{
   padding-top: 100px;
