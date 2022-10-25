@@ -2,7 +2,10 @@
 <html>
 <head>
 <title> </title>
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/product2style.css"><meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/product3style.css">
 </head>
 
 <body>
@@ -30,43 +33,43 @@
 		</ul>
     </div>
     <img src="Arrow-29.jpg" class="arrow">
-    <div class="maincontainer">
+    <div class="main-container">
 
-        <div class="slogan1">
-            <h1 class="slogan2">classic: stripes.</h1>
-        </div>
-        <div class="container">
-            <div class="box1">
-                <img src="img/uni color.jpg" class="image">
-                <h1>&ensp;o u r &ensp;w e b s h o p&ensp; ></h1>
-
-            </div>
-            <div class="box2">
-                <p class="text">Made from 100% organic cotton Produced in Portugal</p>
-                <br></br>
-                <h3>Available in:</h3>
-                <div class="container1">
-                    <div class="blue"></div>
-                    <div class="green"></div>
-                    <div class="pink"></div>
-                    <div class="orange"></div>
-                    <div class="yellow"></div>
-                </div>
-            </div>
+        <div class="slogan-position">
+            <h1 class="slogan">classic: uni color.</h1>
         </div>
 
-        <footer class="footer">
-            <div class="footer1000-7">
-                <h1 class="footer1">&nbsp;&nbsp;&nbsp;&nbsp;Our Resellers</h1>
-                <p class="footer2">Sunny uses resellers.</p>
-                <p class="footer2">You can buy your socks from these sites:</p>
-                <p class="footer3">In Germany:</p>
-                <p class="footer4">in the Netherlands:</p>
-                <p class="footer5"><a href="https://www.amazon.de/"> amazon.de ></p>
-                <p class="footer6"><a href="https://www.hema.com/" > hema.com <a href="https://www.bol.com/nl/nl/"> bol.com ></p>
+        <div class="top-container">
+            <div class="box1" >
+                <img src="img/Sunny_socks_uni_pink.jpg" class="img">
+                <h1>&nbsp;&nbsp;o u r &nbsp;&nbsp;&nbsp;w e b s h o p&nbsp;&nbsp;&nbsp;></h1>
             </div>
-    <footer>
-	    <script src="functions/header.js"></script> 
-    </footer>
-</body>
-</html>
+
+            <div class="box2"
+            <p class="text">Made from 100% organic cotton Produced in Portugal</p>
+            <br><br/>
+            <h3>Available in:</h3>
+            <div class="buttons">
+                <div class="blue"></div>
+                <div class="green"></div>
+                <div class="pink"></div>
+                <div class="orange"></div>
+                <div class="yellow"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-container">
+        <div class="bottom1000-7">
+            <h1 class="bottom1">&nbsp;&nbsp;&nbsp;&nbsp;Our Resellers</h1>
+            <p class="bottom2">Sunny uses resellers.</p>
+            <p class="bottom2">You can buy your socks from these sites:</p>
+            <p class="bottom3">In Germany:</p>
+            <p class="bottom4">in the Netherlands:</p>
+            <p class="bottom5"><a href="https://www.amazon.de/"> amazon.de ></p>
+            <p class="bottom6"><a href="https://www.hema.com/" > hema.com ><a href="https://www.bol.com/nl/nl/"> bol.com ></p>
+        </div>
+    </div>
+    </body>
+    </html>
