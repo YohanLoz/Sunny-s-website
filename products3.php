@@ -37,7 +37,7 @@
         </div>
         <div class="container">
             <div class="box1">
-                <img src="ss%20stripe%20pink.jpg" class="image">
+                <img src="img/uni color.jpg" class="image">
                 <h1>&ensp;o u r &ensp;w e b s h o p&ensp; ></h1>
 
             </div>
