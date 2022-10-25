@@ -49,7 +49,7 @@
 </section>
 
 <section id="fillout">
-    <form action="">
+    <form action="functions/phpmailer/send.php" method="post">
         <div class="firstname">
             <label for="firstname"><p>First Name:</p></label>
             <input type="text" name="firstname" />
@@ -66,10 +66,12 @@
             <label for="email"><p>Email:<p></label>
             <input type="text" name="email" />
         </div>
+
 </section> 
 
 
-<button class="button1"><p>Subscribe</p></button>
+    <button class="button1" type="submit" name="send"><p>Subscribe</p></button>
+</form>
 
 <section class="bottomtxt">
     <h1>Contact us</h1>
