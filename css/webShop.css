@@ -216,6 +216,7 @@ header/*.container*/{
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: <img id="dot" src="img/mobileButton.png"  alt="mobileButton"> */
+  
   .content{
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
@@ -224,6 +225,10 @@ header/*.container*/{
 	height:auto;
     width: 100%;
 }
+.webShop{
+	grid-column: 2/  10;
+}
+
 a{
 	font-family: Nexa, Arial, Helvetica, sans-serif;
     font-weight: normal;
