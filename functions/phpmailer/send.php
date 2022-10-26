@@ -30,9 +30,14 @@ if(isset($_POST["send"])){
     $mail->AddEmbeddedImage(dirname(__FILE__) . 
     '/socksadvert.png', 'socks');
     // $_POST["message"];
-    $mail->send();
+    //$mail->send();
     
-     if ($mail->Send()) { header("Location:/sunny-s-website/index.html");  } 
+     if ($mail->Send()) { 
+        header("Location:/sunny-s-website/index.html"); 
+     }else if(!$mail->Send()){
+        $error = 'Mail error: '.$mail->ErrorInfo;
+        return false;
+     } 
 
 }
 
