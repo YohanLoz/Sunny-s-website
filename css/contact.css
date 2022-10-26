@@ -30,13 +30,13 @@ margin: 0;
 
 #fillout p{  
     text-align: start;
-    width: 250px;
+    width: 17.361vw;
     display: inline-block;
 }
 
 #fillout input{
-    width: 418px;
-    height: 55px;
+    width: 29.027vw;
+    height: 3.8194vw;
 }
 
 @media screen and (max-width: 768px) {
@@ -45,12 +45,12 @@ margin: 0;
 }
 
 #fillout input {
-	width: 200px;
-	height: 2.188rem;
+	width: 40vw;
+	height: 6.5vw;
 }
 
 #fillout p{ 
-	width: 130px;
+	width: 25vw;
 }
 }
 
@@ -63,13 +63,13 @@ margin: 0;
     background-color: #1E407A;
     color: #ffffff;
     opacity: 0.7;
-    width: 180px;
-    height: 60px;
+    width: 10vw;
+    height: 3.5vw;
     display: inline-block;
 
     border: none;
     border-radius: 10px;
-    margin-left: -55px;
+    margin-left: -2.6vw;
     cursor: pointer;
 }
 
@@ -85,10 +85,10 @@ margin: 0;
 
 @media screen and (max-width: 768px) {
 .button1 {
-	width: 5.625rem;
-    height: 2.188rem;
-	margin-left: -5px;
-	margin-top: 0.938rem;
+	width: 18vw;
+    height: 7.7vw;
+	margin-left: -5.3vw;
+	margin-top: 3vw;
 }
 }
 
@@ -149,7 +149,7 @@ margin: 0;
 }
 
 .pinksock1 > img, .pinksock2 > img, .pinksock3 > img, .pinksock4 > img {
-	margin-right: 30px;
+	margin-right: 2vw;
 }
 
 .greensock1, .greensock2, .greensock3, .greensock4 {
@@ -158,22 +158,22 @@ margin: 0;
 }
 
 .greensock1 > img, .greensock2 > img, .greensock3 > img, .greensock4 > img {
-	margin-right: 30px;	
+	margin-right: 2vw;	
 }
 
 @media screen and (max-width: 768px) {
 .pinksock1 > img, .pinksock2 > img, .pinksock3 > img, .pinksock4 > img {
 	width: auto;
 	height: 90px;
-	margin-right: 45px;	
-	margin-bottom: 78px;
+	margin-right: 9vw;	
+	margin-bottom: 14vw;
 }
 
 .greensock1 > img, .greensock2 > img, .greensock3 > img, .greensock4 > img {
 	width: auto;
 	height: 90px;
-	margin-right: 45px;
-	margin-bottom: 78px;
+	margin-right: 9vw;
+	margin-bottom: 14vw;
 }
 }
 
