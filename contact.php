@@ -40,8 +40,7 @@
             </div>
 
             <div class="toptxt2">
-            <p>Stay up to date with the latest news. 
-            <br/>
+            <p>Stay up to date with the latest news.
             Subscribe to our newsletter.
             <br/>
             You can unsubscribe anytime.</p>
@@ -52,21 +51,20 @@
     <form action="functions/phpmailer/send.php" method="post">
         <div class="firstname">
             <label for="firstname"><p>First Name:</p></label>
-            <input type="text" name="firstname" />
+			<input type="text" name="firstname" />
         </div>
         <div class="lastname">
-            <label for="lastname"><p>Last Name:<p></label>
+            <label for="lastname"><p>Last Name:</p></label>
             <input type="text" name="lastname" />
         </div>
         <div class="country">
-            <label for="country"><p>Country:<p></label>
+            <label for="country"><p>Country:</p></label>
             <input type="text" name="country" />
         </div>
         <div class="email">
-            <label for="email"><p>Email:<p></label>
+            <label for="email"><p>Email:</p></label>
             <input type="text" name="email" />
         </div>
-
 </section> 
 
 
@@ -78,69 +76,94 @@
 </section>
 
 <div class="bottombackground">
+
+<div class="contactrow1div" >
     <section class ="contactrow1">
+	
         <div class="pinksock1">
         <img src="img/pinksock.png" alt="pinksock1">
-        </div>
-        <div class="contact1L"><p><b>Sales</b><br>
+
+        <p><b>Sales</b><br>
         Suzan Jong <br>+31 6 12 12 12 12<br>
         suzan@sunny.com</p>
         </div>
+		
         <div class="greensock1">
         <img src="img/greensock.png" alt="greensock1">
-        </div> 
-        <div class="contact1R"><p><b>Sales</b><br>
+ 
+        <p><b>Sales</b><br>
         Suzan Jong <br>+31 6 12 12 12 12<br>
-        suzan@sunny.com</p>   
+        suzan@sunny.com</p>
+		</div>
+		
     </section>
+</div>
 
+<div class="contactrow2div" >
     <section class ="contactrow2">
+	
         <div class="pinksock2">
         <img src="img/pinksock.png" alt="pinksock2">
-        </div>
-        <div class="contact2L"><p><b>Sales</b><br>
+
+        <p><b>Sales</b><br>
         Suzan Jong <br>+31 6 12 12 12 12<br>
         suzan@sunny.com</p>
         </div>
+		
         <div class="greensock2">
         <img src="img/greensock.png" alt="greensock2">
-        </div> 
-        <div class="contact2R"><p><b>Sales</b><br>
+ 
+        <p><b>Sales</b><br>
         Suzan Jong <br>+31 6 12 12 12 12<br>
-        suzan@sunny.com</p>   
+        suzan@sunny.com</p> 
+		</div>
+		
     </section>
-
+</div>
+	
+<div class="contactrow3div" >
     <section class ="contactrow3">
+	
         <div class="pinksock3">
         <img src="img/pinksock.png" alt="pinksock3">
-        </div>
-        <div class="contact3L"><p><b>Sales</b><br>
+
+        <p><b>Sales</b><br>
         Suzan Jong <br>+31 6 12 12 12 12<br>
         suzan@sunny.com</p>
         </div>
+		
         <div class="greensock3">
         <img src="img/greensock.png" alt="greensock3">
-        </div> 
-        <div class="contact3R"><p><b>Sales</b><br>
+ 
+		<p><b>Sales</b><br>
         Suzan Jong <br>+31 6 12 12 12 12<br>
-        suzan@sunny.com</p>   
+        suzan@sunny.com</p> 
+		</div>
+		
     </section>
+</div>
+
+<div class="contactrow4div" >
 
     <section class ="contactrow4">
         <div class="pinksock4">
         <img src="img/pinksock.png" alt="pinksock4">
-        </div>
-        <div class="contact4L"><p><b>Sales</b><br>
+
+        <p><b>Sales</b><br>
         Suzan Jong <br>+31 6 12 12 12 12<br>
         suzan@sunny.com</p>
         </div>
+		
         <div class="greensock4">
         <img src="img/greensock.png" alt="greensock4">
-        </div> 
-        <div class="contact4R"><p><b>Sales</b><br>
+ 
+        <p><b>Sales</b><br>
         Suzan Jong <br>+31 6 12 12 12 12<br>
-        suzan@sunny.com</p>   
+        suzan@sunny.com</p> 		
+		</div>
+		
     </section>
+</div>
 
 </div>
 

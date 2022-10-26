@@ -1,8 +1,15 @@
+h1 {
+	margin: 0;
+}
 
-
+@media screen and (max-width: 768px) {
+h1 {
+	margin-top: 2.5rem;
+}
+}	
 
 #toptext{
-    grid-column: 2 / 10;
+    grid-column: 3/9;
     text-align: center;
     margin-top: 11.042vw;
 }
@@ -12,15 +19,14 @@ margin: 0;
 }
 
 .toptext2{
-        margin-top: 6.597vw;
-        line-height: 1;
+	margin-top: 6.597vw;
+	line-height: 1;
     }
 
 #fillout{
     grid-column: 3/10;
-    
-    
 }
+
 
 #fillout p{  
     text-align: start;
@@ -31,6 +37,21 @@ margin: 0;
 #fillout input{
     width: 418px;
     height: 55px;
+}
+
+@media screen and (max-width: 768px) {
+#fillout {
+	grid-column: 2/10;
+}
+
+#fillout input {
+	width: 200px;
+	height: 2.188rem;
+}
+
+#fillout p{ 
+	width: 130px;
+}
 }
 
 .firstname{
@@ -45,10 +66,10 @@ margin: 0;
     width: 180px;
     height: 60px;
     display: inline-block;
-    margin-left: 18px;
+
     border: none;
     border-radius: 10px;
-    margin-left: 100px;
+    margin-left: -55px;
     cursor: pointer;
 }
 
@@ -62,6 +83,15 @@ margin: 0;
     opacity: 0.7;
 }
 
+@media screen and (max-width: 768px) {
+.button1 {
+	width: 5.625rem;
+    height: 2.188rem;
+	margin-left: -5px;
+	margin-top: 0.938rem;
+}
+}
+
 .bottomtxt{
     grid-column: 1/10;
     margin-top: 6.597vw;
@@ -69,6 +99,24 @@ margin: 0;
     margin-left: 14vw;
     margin-bottom: 0;
     padding-bottom: 0;
+}
+
+.bottombackground {
+	display: grid;
+	grid-column: 1/11;
+	
+	grid-template-columns: inherit;
+
+    background-color: rgba(217, 217, 217, 0.48);
+}
+
+.bottombackground p {
+	letter-spacing: 0.25em;
+}
+
+.contactrow1div, .contactrow2div, .contactrow3div, .contactrow4div {
+	display: grid;
+	grid-column: 2/10;
 }
 
 .contactrow1 {
@@ -80,7 +128,7 @@ margin: 0;
     margin-bottom: 6em;
 }
 
-.contactrow2 {
+.contactrow2, .contactrow3, .contactrow4 {
     display: flex;
     grid-column: 1/11;
     flex-direction: row;
@@ -88,64 +136,49 @@ margin: 0;
     margin-bottom: 6em;
 }
 
-.contactrow3 {
-    display: flex;
-    grid-column: 1/11;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 6em;
+@media screen and (max-width: 768px) {
+.contactrow1, .contactrow2, .contactrow3, .contactrow4 {
+	flex-direction: column;
+	margin-bottom: 0;
+}
 }
 
-
-.contactrow4 {
-    display: flex;
-    grid-column: 1/11;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 6em;
-}
-
-.contact1L {
+.pinksock1, .pinksock2, .pinksock3, .pinksock4 {
     display: flex;
     align-self: center;
 }
 
-.contact2L {
-    display: flex;
-    align-self: center;
+.pinksock1 > img, .pinksock2 > img, .pinksock3 > img, .pinksock4 > img {
+	margin-right: 30px;
 }
-.contact3L {
-    display: flex;
-    align-self: center;
-}
-.contact4L {
+
+.greensock1, .greensock2, .greensock3, .greensock4 {
     display: flex;
     align-self: center;
 }
 
-.contact1R {
-    display: flex;
-    align-self: center;
+.greensock1 > img, .greensock2 > img, .greensock3 > img, .greensock4 > img {
+	margin-right: 30px;	
 }
 
-.contact2R {
-    display: flex;
-    align-self: center;
+@media screen and (max-width: 768px) {
+.pinksock1 > img, .pinksock2 > img, .pinksock3 > img, .pinksock4 > img {
+	width: auto;
+	height: 90px;
+	margin-right: 45px;	
+	margin-bottom: 78px;
 }
 
-.contact3R {
-    display: flex;
-    align-self: center;
+.greensock1 > img, .greensock2 > img, .greensock3 > img, .greensock4 > img {
+	width: auto;
+	height: 90px;
+	margin-right: 45px;
+	margin-bottom: 78px;
+}
 }
 
-.contact4R {
-    display: flex;
-    align-self: center;
+@media screen and (max-width: 768px) {
+.pinksock1 {
+	display: flex;
 }
-
-.bottombackground {
-    grid-column: 1/11;
-    background-color: rgba(217, 217, 217, 0.48);
 }
-
-
