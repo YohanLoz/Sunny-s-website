@@ -41,8 +41,8 @@
 	<?php
 	
 	
-	$randome_variable = rand(0,5);
-	$facts = array("Best socks in the univers","Number 1 sock distributor","Socks like your grandma used","Best design in the world","Sunny socks X NHL Stenden","Every fifth purchese we plant a new sapling");
+	$randome_variable = rand(0,7);
+	$facts = array("Did you know? Sunny had an old website created in 1999.","Sunny was the number 1 sock distributor in the Netherlands in 2019.","Did you know that Sunny's old slogan was: Socks like your grandma used","The first sock we know of date back 1500 years.","Sunny's website was created by couple of students in NHL Stenden","With your every fifth purchase we plant a new sapling","People who wear mismatched socks are more likely to be married.","A design on the ankle or side of a sock is called a clock");
 	echo $facts[$randome_variable];
 	
 	?>
