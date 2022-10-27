@@ -41,11 +41,11 @@
 
         <div class="top-container">
             <div class="box1" >
-                <img src="img/Sunny_socks_uni_pink.jpg" class="img">
+                <img src="img/Sunny_socks_uni_red.jpg" class="img">
                 <h1>&nbsp;&nbsp;o u r &nbsp;&nbsp;&nbsp;w e b s h o p&nbsp;&nbsp;&nbsp;></h1>
             </div>
 
-            <div class="box2"
+            <div class="box2">
             <p class="text">Made from 100% organic cotton Produced in Portugal</p>
             <br><br/>
             <h3>Available in:</h3>
