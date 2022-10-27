@@ -66,8 +66,6 @@
             <input type="text" name="email" />
         </div>
 </section> 
-
-
     <button class="button1" type="submit" name="send"><p>Subscribe</p></button>
 </form>
 
