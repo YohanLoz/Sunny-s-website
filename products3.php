@@ -41,7 +41,7 @@
 
         <div class="top-container">
             <div class="box1" >
-                <img src="img/Sunny_socks_uni_red.jpg" class="img">
+                <img src="img/Sunny_socks_uni_red.jpg" id="img">
                 <h1>&nbsp;&nbsp;o u r &nbsp;&nbsp;&nbsp;w e b s h o p&nbsp;&nbsp;&nbsp;></h1>
             </div>
 
