@@ -582,10 +582,11 @@ h4 {
 #email input{
 	padding: 0.625rem 0.8rem 0.625rem 0.625rem;
 	gap: 0.313rem;
-	width:93.6%;
+	font-size: 1rem;
 }
 #subscribebutton button{
-	padding: 0.625rem;
+	padding: 0.2rem;
+	font-size: 0.8rem;
 }
 #pinktext {
 	font-size: 0.938rem;
