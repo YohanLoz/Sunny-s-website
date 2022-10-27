@@ -42,10 +42,13 @@ header * {
     box-sizing: border-box;
 }
 
+header #logolink{
+    grid-column: 2/ 3;
+}
+
 header #logo{
 	height:4.44vw;
-	width:auto;
-	grid-column: 2/ 3;
+	width:auto;	
 }
 
 header .grid{

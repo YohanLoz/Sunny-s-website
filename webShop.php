@@ -11,9 +11,9 @@
     <div class="grid">
 		
 		   
-		  <img id="logo"src="img/sunny_logos_slogan_blue.png"  alt="logo">
+		  <a href="index.html" id="logolink"> <img id="logo"src="img/sunny_logos_slogan_blue.png" alt="logo"> </a>
 			<a href="index.html" class="toplink1">Home Page</a>
-			<a href="here" class="toplink2">About us</a>
+			<a href="index.html#blueframe" class="toplink2">About us</a>
 			<a href="products1.php" class="toplink3">Products</a>
 			<a href="contact.php" class="toplink4">Contact</a>
 			
