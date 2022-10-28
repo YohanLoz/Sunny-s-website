@@ -13,14 +13,15 @@ if(isset($_POST["send"])){
     $mail->isSMTP();
     $mail->Host ="smtp.gmail.com";
     $mail->SMTPAuth = true;
-    $mail->Username = 'Sunny.Socks.Newsletter@gmail.com';
+    $mail->Username = 'sunny.socks.newsletter@gmail.com';
     $mail->Password ='gdecqaomrikacloh';
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
+   
     
 
 
-    $mail->setFrom('Sunny.Socks.Newsletter@gmail.com');
+    $mail->setFrom('sunny.socks.newsletter@gmail.com');
     $mail->addAddress($_POST["email"]);
     $mail->isHTML(true);
     $mail->Subject = "Socks On SALE ???????
@@ -31,13 +32,9 @@ if(isset($_POST["send"])){
     '/socksadvert.png', 'socks');
     // $_POST["message"];
     //$mail->send();
-    
      if ($mail->Send()) { 
         header("Location:/sunny-s-website/index.html"); 
-     }else if(!$mail->Send()){
-        $error = 'Mail error: '.$mail->ErrorInfo;
-        return false;
-     } 
+     }
 
 }
 
