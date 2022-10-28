@@ -1,75 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> </title>
-    <link rel="stylesheet" href="css/product2style.css"><meta charset="utf-8">
+    <meta charset="UTF-8-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/product3style.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/product3style.css"/>
 </head>
-
 <body>
-    <header>
-        <div class="container">
-            <div class="grid">
-                
-                
-                <a href="index.html" id="logolink"> <img id="logo"src="img/sunny_logos_slogan_blue.png" alt="logo"> </a>
-                <a href="index.html" class="toplink1">Home page</a>
-                <a href="index.html#blueframe" class="toplink2">About Us</a>
-                <a href="products1.php" class="toplink3">Products</a>
-                <a href="contact.php" class="toplink4">Contact</a>
-                    
-                <button  class="mobilebutton"><div class="circle"></div></button>
-                
-            </div>
-        </div>
-    </header>
-    <div id="dropdown" class="mobilemeniu">
-		<ul class="links">
-  			<li ><a id="up" href="index.html">> Home Page</a></li>
-  			<li><a  href="products1.php">> Products</a></li>
-  			<li ><a id="down" href="contact.php">> Contact</a></li>
-		</ul>
-    </div>
-    <img src="Arrow-29.jpg" class="arrow">
-    <div class="main-container">
+<header>
+    <div class="container">
+        <div class="grid">
 
-        <div class="slogan-position">
-            <h1 class="slogan">classic: uni color.</h1>
-        </div>
 
-        <div class="top-container">
-            <div class="box1" >
-                <img src="img/Sunny_socks_uni_red.jpg" id="img">
-                <p class="webshop">&nbsp;&nbsp;o u r &nbsp;&nbsp;&nbsp;w e b s h o p&nbsp;&nbsp;&nbsp;></p>
-            </div>
+            <img id="logo"src="img/sunny_logos_slogan_blue.png"  alt="logo">
+            <a href="index.html" class="toplink1">Home page</a>
+            <a href="index.html#blueframe" class="toplink2">About Us</a>
+            <a href="products1.php" class="toplink3">Products</a>
+            <a href="contact.php" class="toplink4">Contact</a>
 
-            <div class="box2">
-            <p class="text">Made from 100% organic cotton Produced in Portugal</p>
-            <br><br/>
-            <h3>Available in:</h3>
-            <div class="buttons">
-                <div class="blue"></div>
-                <div class="green"></div>
-                <div class="pink"></div>
-                <div class="orange"></div>
-                <div class="yellow"></div>
+            <button  class="mobilebutton"><div class="circle"></div></button>
 
-            </div>
         </div>
     </div>
-
-    <div class="bottom-container">
-        <div class="bottom1000-7">
-            <h1 class="bottom1">&nbsp;&nbsp;&nbsp;&nbsp;Our Resellers</h1>
-            <p class="bottom2">Sunny uses resellers.</p>
-            <p class="bottom2">You can buy your socks from these sites:</p>
-            <p class="bottom3">In Germany:</p>
-            <p class="bottom4">in the Netherlands:</p>
-            <p class="bottom5"><a href="https://www.amazon.de/"> amazon.de ></p>
-            <p class="bottom6"><a href="https://www.hema.com/" > hema.com ><a href="https://www.bol.com/nl/nl/"> bol.com ></p>
+</header>
+<div id="dropdown" class="mobilemeniu">
+    <ul class="links">
+        <li ><a id="up" href="index.html">> Home page</a></li>
+        <li><a  href="products1.php">> Products</a></li>
+        <li ><a id="down" href="contact.php">> Contact</a></li>
+    </ul>
+</div>
+<img src="img/Arrow-29.png" class="arrow">
+    <section id="banner">
+        <h1>classic: uni color.</h1>
+    </section>
+    <section id="photo">
+    <div id="unisocks" class="uni-types">
+        <img src="img/Sunny_socks_uni_pink.jpg" id="img" class="uni1" >
+        <p class="mobilemade">
+            Made from 100% organic cotton
+            Produced in Portugal
+        </p>
+    </div>
+    <div id="box">
+        <div class="mobiletext">
+            <p>Made from 100% organic cotton </br>Produced in Portugal</p>
+        </div>
+        <div>
+            <p class="text">Available in:</p>
+        </div>
+        <div class="buttons">
+            <div class="color blue"></div>
+            <div class="color green"></div>
+            <div class="color pink"></div>
+            <div class="color red"></div>
+            <div class="color yellow"></div>
+            <script src="functions/colours-change.js"></script>
         </div>
     </div>
-    </body>
-    </html>
+    </section>
+<br></br>
+<div id="webshop-page">
+    <a href="webshop.php"><p>o u r &nbsp&nbsp&nbsp w e b s h o p &nbsp&nbsp&nbsp></p></a>
+</div>
+<section id="resellers" class="white">
+    <h2>Our<br/>Resellers:</h2>
+    <p>
+        Sunny uses resellers.<br/>
+        You can buy your socks from these sites:
+    </p>
+
+    <div id="germany">
+        <h3>in<br/>Germany:</h3>
+        <a href="https://www.amazon.de">amazon.de ></a>
+    </div>
+    <div id="netherlands">
+        <h3>in the<br/>Netherlands:</h3>
+        <a href="https://www.hema.com">hema.com ></a>
+        <br/>
+        <a href="https://www.bol.com">bol.com ></a>
+    </div>
+</section>
+</body>
+</html>
+
