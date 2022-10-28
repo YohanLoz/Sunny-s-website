@@ -55,7 +55,7 @@
             <div class="color color-pink"></div>
             <div class="color color-red"></div>
             <div class="color color-yellow"></div>
-            <script src="functions/colours-change.js"></script>
+            <script src="functions/change-socks-colour.js"></script>
         </div>
     </div>
     </section>
