@@ -50,11 +50,11 @@
             <p class="text">Available in:</p>
         </div>
         <div class="buttons">
-            <div class="color blue"></div>
-            <div class="color green"></div>
-            <div class="color pink"></div>
-            <div class="color red"></div>
-            <div class="color yellow"></div>
+            <div class="color color-blue"></div>
+            <div class="color color-green"></div>
+            <div class="color color-pink"></div>
+            <div class="color color-red"></div>
+            <div class="color color-yellow"></div>
             <script src="functions/colours-change.js"></script>
         </div>
     </div>

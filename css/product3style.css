@@ -65,19 +65,19 @@
     border-radius: 50%;
     cursor: pointer;
 }
-.blue{
+.color-blue{
     background: rgba(30,64,122,1);
 }
-.green{
+.color-green{
     background: rgba(81,178,162,1);
 }
-.pink{
+.color-pink{
     background: rgba(233,144,185,1);
 }
-.red{
+.color-red{
     background: rgba(241,91,57,1);
 }
-.yellow{
+.color-yellow{
     background: rgba(254,205,62,1);
 }
 
