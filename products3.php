@@ -30,8 +30,14 @@
         <li ><a id="down" href="contact.php">> Contact</a></li>
     </ul>
 </div>
+<<<<<<< HEAD
 <img src="img/Arrow-29.png" class="arrow">
 <a href="products1.php"></a>
+=======
+ <div class="backButton">
+	<a href="products1.php"><img  id="backButton" src="img/Arrow-29.png"  alt="Arrow-29"></a>
+	</div>
+>>>>>>> 2ebd20e032fa32dee5ef217a7bd4ca5f49bd5d1f
     <section id="banner">
         <h1>classic: uni color.</h1>
     </section>
