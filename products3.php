@@ -12,7 +12,7 @@
         <div class="grid">
 
 
-            <img id="logo"src="img/sunny_logos_slogan_blue.png"  alt="logo">
+            <a href="index.html" id="logolink"> <img id="logo"src="img/sunny_logos_slogan_blue.png" alt="logo"> </a>
             <a href="index.html" class="toplink1">Home page</a>
             <a href="index.html#blueframe" class="toplink2">About Us</a>
             <a href="products1.php" class="toplink3">Products</a>
