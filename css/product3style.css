@@ -9,6 +9,7 @@
     border-style: solid;
     border-radius: 30%;
     box-shadow: 0px 2px 10px;
+    z-index: 11;
 }
 
 #banner{
