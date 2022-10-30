@@ -32,9 +32,9 @@
               <li ><a id="down" href="contact.php">> Contact</a></li>
         </ul>
     </div>
- <div class="arrow">
-	<img src="img/Arrow-29.png" class="arrow">
- </div>
+ <div class="backButton">
+	<a href="products1.php"><img  id="backButton" src="img/Arrow-29.png"  alt="Arrow-29"></a>
+	</div>
 <div id="title">
    <h1>classic stripes</h1>
 </div>
