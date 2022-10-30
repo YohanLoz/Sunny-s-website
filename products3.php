@@ -31,6 +31,7 @@
     </ul>
 </div>
 <img src="img/Arrow-29.png" class="arrow">
+<a href="products1.php"></a>
     <section id="banner">
         <h1>classic: uni color.</h1>
     </section>
